@@ -119,7 +119,7 @@ The Datadog Profiler requires Python 2.7+. Memory profiling only works on Python
 | `DD_PROFILING_API_KEY`                           | String        | The [Datadog API key][1] to use when uploading profiles.                                         |
 | `DD_PROFILING_TAGS`                              | String        | The tags to apply to an uploaded profile. Must be a list of in the format `<KEY1>:<VALUE1>,<KEY2>:<VALUE2>`.       |
 | `DD_SERVICE`                                     | String        | The Datadog [service][3] name, which can be set here, or in `DD_PROFILING_TAGS`.                 |
-| `DD_ENV`                                         | String        | The Datadog [environment][3] name, which can be set here, or in `DD_PROFILING_TAGS`.             |
+| `DD_ENV`                                         | String        | The Datadog [environment][4] primary tag name, which can be set here, or in `DD_PROFILING_TAGS`.             |
 | `DD_VERSION`                                     | String        | The version of your application, which can be set here, or in `DD_PROFILING_TAGS`.               |
 
 [1]: /account_management/api-app-keys/#api-keys
